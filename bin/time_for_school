@@ -25,7 +25,7 @@ some_other_knowledge = avi.teach
 # jim.learn(some_knowledge)
 
 steve.learn(some_knowledge)
-moby.learn(some_knowledge)
+moby.learn(some_other_knowledge)
 puts moby.knowledge
 puts steve.knowledge
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi but Moby learned this knowledge: '#{moby.knowledge[1]}'"
