@@ -28,4 +28,4 @@ steve.learn(some_knowledge)
 moby.learn(some_other_knowledge)
 puts moby.knowledge
 puts steve.knowledge
-puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi but Moby learned this knowledge: '#{moby.knowledge[1]}'"
+puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi but Moby learned this knowledge: '#{moby.knowledge.first}'"
