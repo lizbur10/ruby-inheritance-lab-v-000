@@ -1,6 +1,6 @@
 class Student < User
 
-  def initialize(name)
+  # def initialize
     @first_name = name
-  end
+  # end
 end
