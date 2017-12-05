@@ -21,7 +21,7 @@ moby.first_name = "Moby"
 moby.last_name = ""
 
 some_knowledge = avi.teach
-
+some_other_knowledge = avi.teach
 # jim.learn(some_knowledge)
 
 steve.learn(some_knowledge)
