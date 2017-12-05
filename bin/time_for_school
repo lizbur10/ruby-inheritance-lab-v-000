@@ -16,11 +16,15 @@ jim = User.new
 jim.first_name = "Jim"
 jim.last_name = "Hendrix"
 
+moby = Student.new
+moby.first_name = "Moby"
+moby.last_name = ""
 
 some_knowledge = avi.teach
 
-jim.learn(some_knowledge)
+# jim.learn(some_knowledge)
 
 steve.learn(some_knowledge)
+moby.learn(some_knowledge)
 
-puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
+puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi but Moby learned this knowledge: '#{moby.knowledge.first}'"
